@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/guilhermeonrails/api-go-gin/database"
-	"github.com/guilhermeonrails/api-go-gin/models"
+	"github.com/AndreVeiga/go-com-ci/database"
+	"github.com/AndreVeiga/go-com-ci/models"
 )
 
 func Saudacoes(c *gin.Context) {

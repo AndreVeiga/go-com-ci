@@ -9,10 +9,10 @@ import (
 	"strconv"
 	"testing"
 
+	"github.com/AndreVeiga/go-com-ci/controllers"
+	"github.com/AndreVeiga/go-com-ci/database"
+	"github.com/AndreVeiga/go-com-ci/models"
 	"github.com/gin-gonic/gin"
-	"github.com/guilhermeonrails/api-go-gin/controllers"
-	"github.com/guilhermeonrails/api-go-gin/database"
-	"github.com/guilhermeonrails/api-go-gin/models"
 	"github.com/stretchr/testify/assert"
 )
 
