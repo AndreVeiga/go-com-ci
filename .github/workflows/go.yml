@@ -51,4 +51,4 @@ jobs:
 
   docker:
     needs: build
-    uses: ./Docker.yml
+    uses: ${{ github.action_path }}/Docker.yml
