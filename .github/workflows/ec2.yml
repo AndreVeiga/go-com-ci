@@ -8,12 +8,12 @@ jobs:
   ec2:
     runs-on: 'ubuntu-latest'
     steps:
+    - uses: actions/checkout@v3
+
     - name: Download a Build Artifact
       uses: actions/download-artifact@v3.0.2
       with:
         name: programa
-    
-    - uses: actions/checkout@v3
 
     - name: Deploy to Staging server
       uses: easingthemes/ssh-deploy@main
